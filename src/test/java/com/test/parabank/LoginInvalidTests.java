@@ -12,7 +12,7 @@ public class LoginInvalidTests extends BaseOfTesting{
 		Lpage.enterLoginDetails("hari pb", "test");
 		String errorMessage = Lpage.getloginErrorMessage();
 		Assert.assertEquals(errorMessage, "An internal error has occurred and has been logged.");
-		org.testng.Reporter.log("Invalid User and correct Error shown");
+		org.testng.Reporter.log("Actual = Expected, Test Passed");
 	}
 	
 
