@@ -19,7 +19,7 @@ public class LoginTestCases extends BaseOfTesting {
 		Lpage.enterLoginDetails("hari pb two", "test");
 		String dashboardURL = driver.getCurrentUrl();
 		Assert.assertEquals(dashboardURL, "https://parabank.parasoft.com/parabank/overview.htm");
-		org.testng.Reporter.log("Successfully logged in");
+		org.testng.Reporter.log("Successfully logged in - Completed");
 	}
 	
 	
