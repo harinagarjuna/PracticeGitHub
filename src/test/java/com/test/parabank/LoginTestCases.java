@@ -24,7 +24,7 @@ public class LoginTestCases extends BaseOfTesting {
 //		wait.until(ExpectedConditions.visibilityOf(null))
 		String dashboardURL = driver.getCurrentUrl();
 		Assert.assertEquals(dashboardURL, "https://parabank.parasoft.com/parabank/overview.htm");
-		org.testng.Reporter.log("Successfully logged in - Changed");
+		org.testng.Reporter.log("Successfully logged in - Completed");
 	}
 	
 	
